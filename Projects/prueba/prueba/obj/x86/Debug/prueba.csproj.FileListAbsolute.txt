@@ -1,0 +1,5 @@
+/home/axegas/Projects/prueba/prueba/obj/x86/Debug/prueba.csprojAssemblyReference.cache
+/home/axegas/Projects/prueba/prueba/bin/Debug/prueba.exe
+/home/axegas/Projects/prueba/prueba/bin/Debug/prueba.pdb
+/home/axegas/Projects/prueba/prueba/obj/x86/Debug/prueba.exe
+/home/axegas/Projects/prueba/prueba/obj/x86/Debug/prueba.pdb

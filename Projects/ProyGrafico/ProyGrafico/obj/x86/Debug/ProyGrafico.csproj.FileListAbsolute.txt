@@ -1,0 +1,5 @@
+/home/axegas/Projects/ProyGrafico/ProyGrafico/bin/Debug/ProyGrafico.exe
+/home/axegas/Projects/ProyGrafico/ProyGrafico/bin/Debug/ProyGrafico.pdb
+/home/axegas/Projects/ProyGrafico/ProyGrafico/obj/x86/Debug/ProyGrafico.csprojAssemblyReference.cache
+/home/axegas/Projects/ProyGrafico/ProyGrafico/obj/x86/Debug/ProyGrafico.exe
+/home/axegas/Projects/ProyGrafico/ProyGrafico/obj/x86/Debug/ProyGrafico.pdb

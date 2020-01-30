@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{EB3DF88F-1709-41D0-A745-0946D9E03273}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProyGrafico/MainWindow.cs">
+    <Files>
+      <File FileName="ProyGrafico/Program.cs" Line="5" Column="2" />
+      <File FileName="ProyGrafico/MainWindow.cs" Line="48" Column="6" />
+      <File FileName="ProyGrafico/gtk-gui/MainWindow.cs" Line="220" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProyGrafico" expanded="True">
+            <Node name="ProyGrafico" expanded="True">
+              <Node name="MainWindow.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ProyGrafico PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

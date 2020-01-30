@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{C67ED490-4B61-4BC7-B218-6C3DFC707C53}|Default">
+  <MonoDevelop.Ide.ItemProperties.Tabla PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tabla/Bombo.cs">
+    <Files>
+      <File FileName="Tabla/Program.cs" Line="13" Column="31" />
+      <File FileName="Tabla/Panel.cs" Line="22" Column="21" />
+      <File FileName="Tabla/MainWindow.cs" Line="31" Column="9" />
+      <File FileName="Tabla/Bombo.cs" Line="5" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Tabla" expanded="True">
+            <Node name="Tabla" expanded="True">
+              <Node name="Bombo.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
