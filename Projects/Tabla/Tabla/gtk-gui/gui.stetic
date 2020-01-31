@@ -22,7 +22,8 @@
             <child>
               <widget class="Gtk.Label" id="Texto">
                 <property name="MemberName" />
-                <property name="LabelProp" translatable="yes">App</property>
+                <property name="WidthRequest">295</property>
+                <property name="LabelProp" translatable="yes">El bombo</property>
               </widget>
               <packing>
                 <property name="Position">0</property>
@@ -36,7 +37,7 @@
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="Type">TextOnly</property>
-                <property name="Label" translatable="yes">Aleatorio</property>
+                <property name="Label" translatable="yes">Lanzar Bola</property>
                 <property name="UseUnderline">True</property>
                 <signal name="Clicked" handler="OnClickAleatorio" />
               </widget>

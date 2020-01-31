@@ -28,8 +28,9 @@ public partial class MainWindow
 		this.hbox5.Spacing = 6;
 		// Container child hbox5.Gtk.Box+BoxChild
 		this.Texto = new global::Gtk.Label();
+		this.Texto.WidthRequest = 295;
 		this.Texto.Name = "Texto";
-		this.Texto.LabelProp = global::Mono.Unix.Catalog.GetString("App");
+		this.Texto.LabelProp = global::Mono.Unix.Catalog.GetString("El bombo");
 		this.hbox5.Add(this.Texto);
 		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.hbox5[this.Texto]));
 		w1.Position = 0;
@@ -40,7 +41,7 @@ public partial class MainWindow
 		this.BAleatorio.CanFocus = true;
 		this.BAleatorio.Name = "BAleatorio";
 		this.BAleatorio.UseUnderline = true;
-		this.BAleatorio.Label = global::Mono.Unix.Catalog.GetString("Aleatorio");
+		this.BAleatorio.Label = global::Mono.Unix.Catalog.GetString("Lanzar Bola");
 		this.hbox5.Add(this.BAleatorio);
 		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox5[this.BAleatorio]));
 		w2.Position = 1;
