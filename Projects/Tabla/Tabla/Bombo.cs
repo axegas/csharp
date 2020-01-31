@@ -12,12 +12,8 @@ namespace Tabla
 
         public Bombo()
         {
-            for(int bola = 1; bola <= 90; bola++)
-            {
-                bolas.Add(bola);
-            }
-           
 
+            inicia();
         }
         public int sacarBola()
         {
@@ -25,6 +21,14 @@ namespace Tabla
             int bola = bolas[indexAleatorio];
             bolas.RemoveAt(indexAleatorio);
             return bola;
+        }
+        public void inicia()
+        {
+            bolas.Clear();
+            for (int bola = 1; bola <= 90; bola++)
+            {
+                bolas.Add(bola);
+            }
         }
     }
 }

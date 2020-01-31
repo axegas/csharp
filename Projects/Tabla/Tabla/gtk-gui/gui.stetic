@@ -6,7 +6,7 @@
   <import>
     <widget-library name="../bin/Debug/Tabla.exe" internal="true" />
   </import>
-  <widget class="Gtk.Window" id="MainWindow" design-size="400 300">
+  <widget class="Gtk.Window" id="MainWindow" design-size="505 387">
     <property name="MemberName" />
     <property name="Title" translatable="yes">MainWindow</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -20,7 +20,7 @@
             <property name="MemberName" />
             <property name="Spacing">6</property>
             <child>
-              <widget class="Gtk.Label" id="Texto">
+              <widget class="Gtk.Label" id="LabTitulo">
                 <property name="MemberName" />
                 <property name="WidthRequest">295</property>
                 <property name="LabelProp" translatable="yes">El bombo</property>
@@ -33,13 +33,14 @@
               </packing>
             </child>
             <child>
-              <widget class="Gtk.Button" id="BAleatorio">
+              <widget class="Gtk.Button" id="BotLanzar">
                 <property name="MemberName" />
+                <property name="WidthRequest">120</property>
                 <property name="CanFocus">True</property>
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">Lanzar Bola</property>
                 <property name="UseUnderline">True</property>
-                <signal name="Clicked" handler="OnClickAleatorio" />
+                <signal name="Clicked" handler="OnClickLanzar" />
               </widget>
               <packing>
                 <property name="Position">1</property>
@@ -57,7 +58,66 @@
           </packing>
         </child>
         <child>
-          <placeholder />
+          <widget class="Gtk.HBox" id="hbox2">
+            <property name="MemberName" />
+            <property name="Spacing">6</property>
+            <child>
+              <placeholder />
+            </child>
+            <child>
+              <widget class="Gtk.Button" id="BotReset">
+                <property name="MemberName" />
+                <property name="WidthRequest">70</property>
+                <property name="CanFocus">True</property>
+                <property name="Type">TextOnly</property>
+                <property name="Label" translatable="yes">Reset</property>
+                <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="onClickReset" />
+              </widget>
+              <packing>
+                <property name="Position">1</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Button" id="BotSalir">
+                <property name="MemberName" />
+                <property name="WidthRequest">70</property>
+                <property name="CanFocus">True</property>
+                <property name="Type">TextOnly</property>
+                <property name="Label" translatable="yes">Salir</property>
+                <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="OnClickSalir" />
+              </widget>
+              <packing>
+                <property name="Position">2</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="Position">1</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.HBox" id="hbox1">
+            <property name="MemberName" />
+            <property name="Spacing">6</property>
+            <child>
+              <placeholder />
+            </child>
+          </widget>
+          <packing>
+            <property name="Position">2</property>
+            <property name="AutoSize">True</property>
+          </packing>
         </child>
       </widget>
     </child>

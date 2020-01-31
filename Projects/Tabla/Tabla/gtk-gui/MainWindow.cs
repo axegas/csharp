@@ -7,9 +7,17 @@ public partial class MainWindow
 
 	private global::Gtk.HBox hbox5;
 
-	private global::Gtk.Label Texto;
+	private global::Gtk.Label LabTitulo;
 
-	private global::Gtk.Button BAleatorio;
+	private global::Gtk.Button BotLanzar;
+
+	private global::Gtk.HBox hbox2;
+
+	private global::Gtk.Button BotReset;
+
+	private global::Gtk.Button BotSalir;
+
+	private global::Gtk.HBox hbox1;
 
 	protected virtual void Build()
 	{
@@ -27,23 +35,24 @@ public partial class MainWindow
 		this.hbox5.Name = "hbox5";
 		this.hbox5.Spacing = 6;
 		// Container child hbox5.Gtk.Box+BoxChild
-		this.Texto = new global::Gtk.Label();
-		this.Texto.WidthRequest = 295;
-		this.Texto.Name = "Texto";
-		this.Texto.LabelProp = global::Mono.Unix.Catalog.GetString("El bombo");
-		this.hbox5.Add(this.Texto);
-		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.hbox5[this.Texto]));
+		this.LabTitulo = new global::Gtk.Label();
+		this.LabTitulo.WidthRequest = 295;
+		this.LabTitulo.Name = "LabTitulo";
+		this.LabTitulo.LabelProp = global::Mono.Unix.Catalog.GetString("El bombo");
+		this.hbox5.Add(this.LabTitulo);
+		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.hbox5[this.LabTitulo]));
 		w1.Position = 0;
 		w1.Expand = false;
 		w1.Fill = false;
 		// Container child hbox5.Gtk.Box+BoxChild
-		this.BAleatorio = new global::Gtk.Button();
-		this.BAleatorio.CanFocus = true;
-		this.BAleatorio.Name = "BAleatorio";
-		this.BAleatorio.UseUnderline = true;
-		this.BAleatorio.Label = global::Mono.Unix.Catalog.GetString("Lanzar Bola");
-		this.hbox5.Add(this.BAleatorio);
-		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox5[this.BAleatorio]));
+		this.BotLanzar = new global::Gtk.Button();
+		this.BotLanzar.WidthRequest = 120;
+		this.BotLanzar.CanFocus = true;
+		this.BotLanzar.Name = "BotLanzar";
+		this.BotLanzar.UseUnderline = true;
+		this.BotLanzar.Label = global::Mono.Unix.Catalog.GetString("Lanzar Bola");
+		this.hbox5.Add(this.BotLanzar);
+		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox5[this.BotLanzar]));
 		w2.Position = 1;
 		w2.Expand = false;
 		w2.Fill = false;
@@ -52,15 +61,57 @@ public partial class MainWindow
 		w3.Position = 0;
 		w3.Expand = false;
 		w3.Fill = false;
+		// Container child vBox.Gtk.Box+BoxChild
+		this.hbox2 = new global::Gtk.HBox();
+		this.hbox2.Name = "hbox2";
+		this.hbox2.Spacing = 6;
+		// Container child hbox2.Gtk.Box+BoxChild
+		this.BotReset = new global::Gtk.Button();
+		this.BotReset.WidthRequest = 70;
+		this.BotReset.CanFocus = true;
+		this.BotReset.Name = "BotReset";
+		this.BotReset.UseUnderline = true;
+		this.BotReset.Label = global::Mono.Unix.Catalog.GetString("Reset");
+		this.hbox2.Add(this.BotReset);
+		global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.hbox2[this.BotReset]));
+		w4.Position = 1;
+		w4.Expand = false;
+		w4.Fill = false;
+		// Container child hbox2.Gtk.Box+BoxChild
+		this.BotSalir = new global::Gtk.Button();
+		this.BotSalir.WidthRequest = 70;
+		this.BotSalir.CanFocus = true;
+		this.BotSalir.Name = "BotSalir";
+		this.BotSalir.UseUnderline = true;
+		this.BotSalir.Label = global::Mono.Unix.Catalog.GetString("Salir");
+		this.hbox2.Add(this.BotSalir);
+		global::Gtk.Box.BoxChild w5 = ((global::Gtk.Box.BoxChild)(this.hbox2[this.BotSalir]));
+		w5.Position = 2;
+		w5.Expand = false;
+		w5.Fill = false;
+		this.vBox.Add(this.hbox2);
+		global::Gtk.Box.BoxChild w6 = ((global::Gtk.Box.BoxChild)(this.vBox[this.hbox2]));
+		w6.Position = 1;
+		w6.Expand = false;
+		w6.Fill = false;
+		// Container child vBox.Gtk.Box+BoxChild
+		this.hbox1 = new global::Gtk.HBox();
+		this.hbox1.Name = "hbox1";
+		this.hbox1.Spacing = 6;
+		this.vBox.Add(this.hbox1);
+		global::Gtk.Box.BoxChild w7 = ((global::Gtk.Box.BoxChild)(this.vBox[this.hbox1]));
+		w7.Position = 2;
 		this.Add(this.vBox);
 		if ((this.Child != null))
 		{
 			this.Child.ShowAll();
 		}
-		this.DefaultWidth = 400;
-		this.DefaultHeight = 300;
+		this.DefaultWidth = 505;
+		this.DefaultHeight = 387;
 		this.Show();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
-		this.BAleatorio.Clicked += new global::System.EventHandler(this.OnClickAleatorio);
+		this.BotLanzar.Clicked += new global::System.EventHandler(this.OnClickLanzar);
+		this.BotReset.Clicked += new global::System.EventHandler(this.onClickReset);
+		this.BotSalir.Clicked += new global::System.EventHandler(this.OnClickSalir);
 	}
 }

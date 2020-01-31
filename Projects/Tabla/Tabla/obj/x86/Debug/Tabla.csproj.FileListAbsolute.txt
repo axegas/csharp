@@ -14,3 +14,9 @@
 /home/axegas/csharp/Projects/Tabla/Tabla/obj/x86/Debug/Tabla.csprojAssemblyReference.cache
 /home/axegas/csharp/Projects/Tabla/Tabla/obj/x86/Debug/Tabla.exe
 /home/axegas/csharp/Projects/Tabla/Tabla/obj/x86/Debug/Tabla.pdb
+/home/axel/Documentos/csharp/Projects/Tabla/Tabla/bin/Debug/Tabla.exe
+/home/axel/Documentos/csharp/Projects/Tabla/Tabla/bin/Debug/Tabla.pdb
+/home/axel/Documentos/csharp/Projects/Tabla/Tabla/obj/x86/Debug/Tabla.csprojAssemblyReference.cache
+/home/axel/Documentos/csharp/Projects/Tabla/Tabla/obj/x86/Debug/Tabla.csproj.CoreCompileInputs.cache
+/home/axel/Documentos/csharp/Projects/Tabla/Tabla/obj/x86/Debug/Tabla.exe
+/home/axel/Documentos/csharp/Projects/Tabla/Tabla/obj/x86/Debug/Tabla.pdb

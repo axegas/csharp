@@ -3,9 +3,9 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Tabla/MainWindow.cs">
     <Files>
       <File FileName="Tabla/Program.cs" Line="13" Column="31" />
-      <File FileName="Tabla/Panel.cs" Line="28" Column="21" />
-      <File FileName="Tabla/Bombo.cs" Line="5" Column="1" />
-      <File FileName="Tabla/MainWindow.cs" Line="33" Column="2" />
+      <File FileName="Tabla/Panel.cs" Line="28" Column="29" />
+      <File FileName="Tabla/Bombo.cs" Line="24" Column="10" />
+      <File FileName="Tabla/MainWindow.cs" Line="47" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
