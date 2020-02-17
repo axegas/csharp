@@ -7,6 +7,33 @@ public partial class MainWindow
 
 	private global::Gtk.HBox hbox5;
 
+<<<<<<< HEAD
+	private global::Gtk.Label TextTitulo;
+
+	private global::Gtk.VBox vbox2;
+
+	private global::Gtk.HBox hbox2;
+
+	private global::Gtk.Button BLanzar;
+
+	private global::Gtk.Button BReset;
+
+	private global::Gtk.Button BSalir;
+
+	private global::Gtk.HBox hbox1;
+
+	private global::Gtk.HBox hbox3;
+
+	private global::Gtk.VBox vbox1;
+
+	private global::Gtk.VBox vbox3;
+
+	private global::Gtk.VBox vbox4;
+
+	private global::Gtk.VBox vbox5;
+
+	private global::Gtk.Label ElBoleto;
+=======
 	private global::Gtk.Label LabTitulo;
 
 	private global::Gtk.Button BotLanzar;
@@ -18,6 +45,7 @@ public partial class MainWindow
 	private global::Gtk.Button BotSalir;
 
 	private global::Gtk.HBox hbox1;
+>>>>>>> b8de448fa44e88503e4c0582d36fdbb59b3312c9
 
 	protected virtual void Build()
 	{
@@ -30,20 +58,35 @@ public partial class MainWindow
 		this.vBox = new global::Gtk.VBox();
 		this.vBox.Name = "vBox";
 		this.vBox.Spacing = 6;
+		this.vBox.BorderWidth = ((uint)(9));
 		// Container child vBox.Gtk.Box+BoxChild
 		this.hbox5 = new global::Gtk.HBox();
 		this.hbox5.Name = "hbox5";
 		this.hbox5.Spacing = 6;
 		// Container child hbox5.Gtk.Box+BoxChild
+<<<<<<< HEAD
+		this.TextTitulo = new global::Gtk.Label();
+		this.TextTitulo.WidthRequest = 405;
+		this.TextTitulo.HeightRequest = 32;
+		this.TextTitulo.Name = "TextTitulo";
+		this.TextTitulo.LabelProp = global::Mono.Unix.Catalog.GetString("El Bingo");
+		this.hbox5.Add(this.TextTitulo);
+		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.hbox5[this.TextTitulo]));
+=======
 		this.LabTitulo = new global::Gtk.Label();
 		this.LabTitulo.WidthRequest = 295;
 		this.LabTitulo.Name = "LabTitulo";
 		this.LabTitulo.LabelProp = global::Mono.Unix.Catalog.GetString("El bombo");
 		this.hbox5.Add(this.LabTitulo);
 		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.hbox5[this.LabTitulo]));
+>>>>>>> b8de448fa44e88503e4c0582d36fdbb59b3312c9
 		w1.Position = 0;
-		w1.Expand = false;
 		w1.Fill = false;
+<<<<<<< HEAD
+		this.vBox.Add(this.hbox5);
+		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.vBox[this.hbox5]));
+		w2.Position = 0;
+=======
 		// Container child hbox5.Gtk.Box+BoxChild
 		this.BotLanzar = new global::Gtk.Button();
 		this.BotLanzar.WidthRequest = 120;
@@ -54,13 +97,116 @@ public partial class MainWindow
 		this.hbox5.Add(this.BotLanzar);
 		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox5[this.BotLanzar]));
 		w2.Position = 1;
+>>>>>>> b8de448fa44e88503e4c0582d36fdbb59b3312c9
 		w2.Expand = false;
 		w2.Fill = false;
-		this.vBox.Add(this.hbox5);
-		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.vBox[this.hbox5]));
+		// Container child vBox.Gtk.Box+BoxChild
+		this.vbox2 = new global::Gtk.VBox();
+		this.vbox2.Name = "vbox2";
+		this.vbox2.Spacing = 6;
+		// Container child vbox2.Gtk.Box+BoxChild
+		this.hbox2 = new global::Gtk.HBox();
+		this.hbox2.Name = "hbox2";
+		this.hbox2.Spacing = 6;
+		// Container child hbox2.Gtk.Box+BoxChild
+		this.BLanzar = new global::Gtk.Button();
+		this.BLanzar.WidthRequest = 100;
+		this.BLanzar.CanFocus = true;
+		this.BLanzar.Name = "BLanzar";
+		this.BLanzar.UseUnderline = true;
+		this.BLanzar.Label = global::Mono.Unix.Catalog.GetString("Lanzar");
+		this.hbox2.Add(this.BLanzar);
+		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.hbox2[this.BLanzar]));
 		w3.Position = 0;
-		w3.Expand = false;
 		w3.Fill = false;
+<<<<<<< HEAD
+		// Container child hbox2.Gtk.Box+BoxChild
+		this.BReset = new global::Gtk.Button();
+		this.BReset.WidthRequest = 100;
+		this.BReset.CanFocus = true;
+		this.BReset.Name = "BReset";
+		this.BReset.UseUnderline = true;
+		this.BReset.Label = global::Mono.Unix.Catalog.GetString("Reset");
+		this.hbox2.Add(this.BReset);
+		global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.hbox2[this.BReset]));
+		w4.Position = 1;
+		w4.Fill = false;
+		// Container child hbox2.Gtk.Box+BoxChild
+		this.BSalir = new global::Gtk.Button();
+		this.BSalir.WidthRequest = 100;
+		this.BSalir.CanFocus = true;
+		this.BSalir.Name = "BSalir";
+		this.BSalir.UseUnderline = true;
+		this.BSalir.Label = global::Mono.Unix.Catalog.GetString("Salir");
+		this.hbox2.Add(this.BSalir);
+		global::Gtk.Box.BoxChild w5 = ((global::Gtk.Box.BoxChild)(this.hbox2[this.BSalir]));
+		w5.Position = 2;
+		w5.Fill = false;
+		this.vbox2.Add(this.hbox2);
+		global::Gtk.Box.BoxChild w6 = ((global::Gtk.Box.BoxChild)(this.vbox2[this.hbox2]));
+		w6.Position = 0;
+		w6.Expand = false;
+		w6.Fill = false;
+		// Container child vbox2.Gtk.Box+BoxChild
+		this.hbox1 = new global::Gtk.HBox();
+		this.hbox1.Spacing = 6;
+		// Container child hbox1.Gtk.Box+BoxChild
+		this.hbox3 = new global::Gtk.HBox();
+		this.hbox3.Name = "hbox3";
+		this.hbox3.Spacing = 6;
+		// Container child hbox3.Gtk.Box+BoxChild
+		this.vbox1 = new global::Gtk.VBox();
+		this.vbox1.Name = "vbox1";
+		this.vbox1.Spacing = 6;
+		// Container child vbox1.Gtk.Box+BoxChild
+		this.vbox3 = new global::Gtk.VBox();
+		this.vbox3.Name = "vbox3";
+		this.vbox3.Spacing = 6;
+		this.vbox1.Add(this.vbox3);
+		global::Gtk.Box.BoxChild w7 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.vbox3]));
+		w7.Position = 0;
+		// Container child vbox1.Gtk.Box+BoxChild
+		this.vbox4 = new global::Gtk.VBox();
+		this.vbox4.Name = "vbox4";
+		this.vbox4.Spacing = 6;
+		// Container child vbox4.Gtk.Box+BoxChild
+		this.vbox5 = new global::Gtk.VBox();
+		this.vbox5.Name = "vbox5";
+		this.vbox5.Spacing = 6;
+		// Container child vbox5.Gtk.Box+BoxChild
+		this.ElBoleto = new global::Gtk.Label();
+		this.ElBoleto.WidthRequest = 430;
+		this.ElBoleto.HeightRequest = 36;
+		this.ElBoleto.Name = "ElBoleto";
+		this.ElBoleto.LabelProp = global::Mono.Unix.Catalog.GetString("El Boleto");
+		this.vbox5.Add(this.ElBoleto);
+		global::Gtk.Box.BoxChild w8 = ((global::Gtk.Box.BoxChild)(this.vbox5[this.ElBoleto]));
+		w8.Position = 0;
+		w8.Expand = false;
+		w8.Fill = false;
+		this.vbox4.Add(this.vbox5);
+		global::Gtk.Box.BoxChild w9 = ((global::Gtk.Box.BoxChild)(this.vbox4[this.vbox5]));
+		w9.Position = 0;
+		this.vbox1.Add(this.vbox4);
+		global::Gtk.Box.BoxChild w10 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.vbox4]));
+		w10.Position = 1;
+		this.hbox3.Add(this.vbox1);
+		global::Gtk.Box.BoxChild w11 = ((global::Gtk.Box.BoxChild)(this.hbox3[this.vbox1]));
+		w11.Position = 0;
+		w11.Expand = false;
+		w11.Fill = false;
+		this.hbox1.Add(this.hbox3);
+		global::Gtk.Box.BoxChild w12 = ((global::Gtk.Box.BoxChild)(this.hbox1[this.hbox3]));
+		w12.Position = 0;
+		w12.Expand = false;
+		w12.Fill = false;
+		this.vbox2.Add(this.hbox1);
+		global::Gtk.Box.BoxChild w13 = ((global::Gtk.Box.BoxChild)(this.vbox2[this.hbox1]));
+		w13.Position = 1;
+		this.vBox.Add(this.vbox2);
+		global::Gtk.Box.BoxChild w14 = ((global::Gtk.Box.BoxChild)(this.vBox[this.vbox2]));
+		w14.Position = 1;
+=======
 		// Container child vBox.Gtk.Box+BoxChild
 		this.hbox2 = new global::Gtk.HBox();
 		this.hbox2.Name = "hbox2";
@@ -101,11 +247,21 @@ public partial class MainWindow
 		this.vBox.Add(this.hbox1);
 		global::Gtk.Box.BoxChild w7 = ((global::Gtk.Box.BoxChild)(this.vBox[this.hbox1]));
 		w7.Position = 2;
+>>>>>>> b8de448fa44e88503e4c0582d36fdbb59b3312c9
 		this.Add(this.vBox);
 		if ((this.Child != null))
 		{
 			this.Child.ShowAll();
 		}
+<<<<<<< HEAD
+		this.DefaultWidth = 448;
+		this.DefaultHeight = 300;
+		this.Show();
+		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
+		this.BLanzar.Clicked += new global::System.EventHandler(this.OnClickLanzar);
+		this.BReset.Clicked += new global::System.EventHandler(this.OnClickReset);
+		this.BSalir.Clicked += new global::System.EventHandler(this.OnClickSalir);
+=======
 		this.DefaultWidth = 505;
 		this.DefaultHeight = 387;
 		this.Show();
@@ -113,5 +269,6 @@ public partial class MainWindow
 		this.BotLanzar.Clicked += new global::System.EventHandler(this.OnClickLanzar);
 		this.BotReset.Clicked += new global::System.EventHandler(this.onClickReset);
 		this.BotSalir.Clicked += new global::System.EventHandler(this.OnClickSalir);
+>>>>>>> b8de448fa44e88503e4c0582d36fdbb59b3312c9
 	}
 }

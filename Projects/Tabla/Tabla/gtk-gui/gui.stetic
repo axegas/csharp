@@ -6,7 +6,11 @@
   <import>
     <widget-library name="../bin/Debug/Tabla.exe" internal="true" />
   </import>
+<<<<<<< HEAD
+  <widget class="Gtk.Window" id="MainWindow" design-size="448 300">
+=======
   <widget class="Gtk.Window" id="MainWindow" design-size="505 387">
+>>>>>>> b8de448fa44e88503e4c0582d36fdbb59b3312c9
     <property name="MemberName" />
     <property name="Title" translatable="yes">MainWindow</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -15,37 +19,25 @@
       <widget class="Gtk.VBox" id="vBox">
         <property name="MemberName" />
         <property name="Spacing">6</property>
+        <property name="BorderWidth">9</property>
         <child>
           <widget class="Gtk.HBox" id="hbox5">
             <property name="MemberName" />
             <property name="Spacing">6</property>
             <child>
+<<<<<<< HEAD
+              <widget class="Gtk.Label" id="TextTitulo">
+=======
               <widget class="Gtk.Label" id="LabTitulo">
+>>>>>>> b8de448fa44e88503e4c0582d36fdbb59b3312c9
                 <property name="MemberName" />
-                <property name="WidthRequest">295</property>
-                <property name="LabelProp" translatable="yes">El bombo</property>
+                <property name="WidthRequest">405</property>
+                <property name="HeightRequest">32</property>
+                <property name="LabelProp" translatable="yes">El Bingo</property>
               </widget>
               <packing>
                 <property name="Position">0</property>
-                <property name="AutoSize">True</property>
-                <property name="Expand">False</property>
-                <property name="Fill">False</property>
-              </packing>
-            </child>
-            <child>
-              <widget class="Gtk.Button" id="BotLanzar">
-                <property name="MemberName" />
-                <property name="WidthRequest">120</property>
-                <property name="CanFocus">True</property>
-                <property name="Type">TextOnly</property>
-                <property name="Label" translatable="yes">Lanzar Bola</property>
-                <property name="UseUnderline">True</property>
-                <signal name="Clicked" handler="OnClickLanzar" />
-              </widget>
-              <packing>
-                <property name="Position">1</property>
-                <property name="AutoSize">True</property>
-                <property name="Expand">False</property>
+                <property name="AutoSize">False</property>
                 <property name="Fill">False</property>
               </packing>
             </child>
@@ -57,6 +49,173 @@
             <property name="Fill">False</property>
           </packing>
         </child>
+        <child>
+          <widget class="Gtk.VBox" id="vbox2">
+            <property name="MemberName" />
+            <property name="Spacing">6</property>
+            <child>
+              <widget class="Gtk.HBox" id="hbox2">
+                <property name="MemberName" />
+                <property name="Spacing">6</property>
+                <child>
+                  <widget class="Gtk.Button" id="BLanzar">
+                    <property name="MemberName" />
+                    <property name="WidthRequest">100</property>
+                    <property name="CanFocus">True</property>
+                    <property name="Type">TextOnly</property>
+                    <property name="Label" translatable="yes">Lanzar</property>
+                    <property name="UseUnderline">True</property>
+                    <signal name="Clicked" handler="OnClickLanzar" />
+                  </widget>
+                  <packing>
+                    <property name="Position">0</property>
+                    <property name="AutoSize">False</property>
+                    <property name="Fill">False</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="Gtk.Button" id="BReset">
+                    <property name="MemberName" />
+                    <property name="WidthRequest">100</property>
+                    <property name="CanFocus">True</property>
+                    <property name="Type">TextOnly</property>
+                    <property name="Label" translatable="yes">Reset</property>
+                    <property name="UseUnderline">True</property>
+                    <signal name="Clicked" handler="OnClickReset" />
+                  </widget>
+                  <packing>
+                    <property name="Position">1</property>
+                    <property name="AutoSize">False</property>
+                    <property name="Fill">False</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="Gtk.Button" id="BSalir">
+                    <property name="MemberName" />
+                    <property name="WidthRequest">100</property>
+                    <property name="CanFocus">True</property>
+                    <property name="Type">TextOnly</property>
+                    <property name="Label" translatable="yes">Salir</property>
+                    <property name="UseUnderline">True</property>
+                    <signal name="Clicked" handler="OnClickSalir" />
+                  </widget>
+                  <packing>
+                    <property name="Position">2</property>
+                    <property name="AutoSize">False</property>
+                    <property name="Fill">False</property>
+                  </packing>
+                </child>
+              </widget>
+              <packing>
+                <property name="Position">0</property>
+                <property name="AutoSize">False</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+<<<<<<< HEAD
+              <widget class="Gtk.HBox" id="hbox1">
+                <property name="MemberName" />
+                <property name="Spacing">6</property>
+                <child>
+                  <widget class="Gtk.HBox" id="hbox3">
+                    <property name="MemberName" />
+                    <property name="Spacing">6</property>
+                    <child>
+                      <widget class="Gtk.VBox" id="vbox1">
+                        <property name="MemberName" />
+                        <property name="Spacing">6</property>
+                        <child>
+                          <widget class="Gtk.VBox" id="vbox3">
+                            <property name="MemberName" />
+                            <property name="Spacing">6</property>
+                            <child>
+                              <placeholder />
+                            </child>
+                          </widget>
+                          <packing>
+                            <property name="Position">0</property>
+                            <property name="AutoSize">True</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <widget class="Gtk.VBox" id="vbox4">
+                            <property name="MemberName" />
+                            <property name="Spacing">6</property>
+                            <child>
+                              <widget class="Gtk.VBox" id="vbox5">
+                                <property name="MemberName" />
+                                <property name="Spacing">6</property>
+                                <child>
+                                  <widget class="Gtk.Label" id="ElBoleto">
+                                    <property name="MemberName" />
+                                    <property name="WidthRequest">430</property>
+                                    <property name="HeightRequest">36</property>
+                                    <property name="LabelProp" translatable="yes">El Boleto</property>
+                                  </widget>
+                                  <packing>
+                                    <property name="Position">0</property>
+                                    <property name="AutoSize">True</property>
+                                    <property name="Expand">False</property>
+                                    <property name="Fill">False</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <placeholder />
+                                </child>
+                              </widget>
+                              <packing>
+                                <property name="Position">0</property>
+                                <property name="AutoSize">True</property>
+                              </packing>
+                            </child>
+                          </widget>
+                          <packing>
+                            <property name="Position">1</property>
+                            <property name="AutoSize">True</property>
+                          </packing>
+                        </child>
+                      </widget>
+                      <packing>
+                        <property name="Position">0</property>
+                        <property name="AutoSize">True</property>
+                        <property name="Expand">False</property>
+                        <property name="Fill">False</property>
+                      </packing>
+                    </child>
+                  </widget>
+                  <packing>
+                    <property name="Position">0</property>
+                    <property name="AutoSize">True</property>
+                    <property name="Expand">False</property>
+                    <property name="Fill">False</property>
+                  </packing>
+                </child>
+=======
+              <widget class="Gtk.Button" id="BotLanzar">
+                <property name="MemberName" />
+                <property name="WidthRequest">120</property>
+                <property name="CanFocus">True</property>
+                <property name="Type">TextOnly</property>
+                <property name="Label" translatable="yes">Lanzar Bola</property>
+                <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="OnClickLanzar" />
+>>>>>>> b8de448fa44e88503e4c0582d36fdbb59b3312c9
+              </widget>
+              <packing>
+                <property name="Position">1</property>
+                <property name="AutoSize">True</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="Position">1</property>
+            <property name="AutoSize">True</property>
+          </packing>
+        </child>
+<<<<<<< HEAD
+=======
         <child>
           <widget class="Gtk.HBox" id="hbox2">
             <property name="MemberName" />
@@ -119,6 +278,7 @@
             <property name="AutoSize">True</property>
           </packing>
         </child>
+>>>>>>> b8de448fa44e88503e4c0582d36fdbb59b3312c9
       </widget>
     </child>
   </widget>

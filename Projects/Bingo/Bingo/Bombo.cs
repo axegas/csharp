@@ -12,16 +12,7 @@ namespace Bingo
 
         public Bombo(int val)
         {
-
-            bolas.Clear();
-            for (int bola = 1; bola <= val; bola++)
-            {
-                bolas.Add(bola);
-            }
-
-
-            inicia();
-
+            inicia(val);
         }
         public int sacarBola()
         {
@@ -37,10 +28,10 @@ namespace Bingo
                 return bola;
             }           
         }
-        public void inicia()
+        public void inicia(int val)
         {
             bolas.Clear();
-            for (int bola = 1; bola <= 90; bola++)
+            for (int bola = 1; bola <= val; bola++)
             {
                 bolas.Add(bola);
             }

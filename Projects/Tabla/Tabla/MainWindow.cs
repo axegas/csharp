@@ -2,16 +2,24 @@
 using Gtk;
 using Tabla;
 
+
+
+
 public partial class MainWindow : Gtk.Window
 {
-    public Bombo bom = new Bombo();
-    public Panel panel;
+    private int val = 90;
+    private Panel panel;
+    private Bolet boleto;
+
+    private Bombo bom;
 
     public MainWindow() : base(Gtk.WindowType.Toplevel)
     {
         Build();
 
-        panel = new Panel(vBox);
+        bom = new Bombo(val);
+        panel = new Panel(vbox3, 90,10,9);
+        boleto = new Bolet(vbox4, 90, 3, 6);
 
     }
 
@@ -23,12 +31,33 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnClickLanzar(object sender, EventArgs e)
     {
-
         int l = bom.sacarBola();
-        Gdk.Color c = new Gdk.Color(200, 200, 200);
-        panel.buttons[l-1].ModifyBg(StateType.Normal, c);
+        if (l == -1)
+        {
+            MessageDialog err = new MessageDialog(null, DialogFlags.Modal, MessageType.Info, ButtonsType.YesNo, "Desea reiniciar el bombo?");
+            err.Run();
+            err.Destroy();
 
 
+            OnClickReset(sender, e);
+        }
+        else
+        {
+            panel.Marcar(l);
+            boleto.Marcar(l);
+        }
+    }
+
+    protected void OnClickSalir(object sender, EventArgs e)
+    {
+        Application.Quit();
+    }
+
+    protected void OnClickReset(object sender, EventArgs e)
+    {
+        panel.Reset();
+        boleto.Reset();
+        bom = new Bombo(val);
     }
 
     protected void onClickReset(object sender, EventArgs e)

@@ -1,0 +1,5 @@
+/home/axegas/csharp/Projects/Bingo/Bingo/bin/Debug/Bingo.exe
+/home/axegas/csharp/Projects/Bingo/Bingo/bin/Debug/Bingo.pdb
+/home/axegas/csharp/Projects/Bingo/Bingo/obj/x86/Debug/Bingo.csprojAssemblyReference.cache
+/home/axegas/csharp/Projects/Bingo/Bingo/obj/x86/Debug/Bingo.exe
+/home/axegas/csharp/Projects/Bingo/Bingo/obj/x86/Debug/Bingo.pdb

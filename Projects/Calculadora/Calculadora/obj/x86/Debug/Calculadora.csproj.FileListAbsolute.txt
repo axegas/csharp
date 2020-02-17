@@ -1,0 +1,5 @@
+/home/axegas/csharp/Projects/Calculadora/Calculadora/bin/Debug/Calculadora.exe
+/home/axegas/csharp/Projects/Calculadora/Calculadora/bin/Debug/Calculadora.pdb
+/home/axegas/csharp/Projects/Calculadora/Calculadora/obj/x86/Debug/Calculadora.csprojAssemblyReference.cache
+/home/axegas/csharp/Projects/Calculadora/Calculadora/obj/x86/Debug/Calculadora.exe
+/home/axegas/csharp/Projects/Calculadora/Calculadora/obj/x86/Debug/Calculadora.pdb

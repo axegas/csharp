@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{C67ED490-4B61-4BC7-B218-6C3DFC707C53}</ProjectGuid>
+    <ProjectGuid>{4BFB1667-43F4-4E62-9476-D035D65E2B75}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Tabla</RootNamespace>
-    <AssemblyName>Tabla</AssemblyName>
+    <RootNamespace>Bingo</RootNamespace>
+    <AssemblyName>Bingo</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -64,9 +64,13 @@
     <Compile Include="gtk-gui\MainWindow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Panel.cs" />
-    <Compile Include="Bombo.cs" />
     <Compile Include="Bolet.cs" />
+    <Compile Include="Bombo.cs" />
+    <Compile Include="Panel.cs" />
+    <Compile Include="Carton.cs" />
+    <Compile Include="gtk-gui\Bingo.Carton.cs" />
+    <Compile Include="Window.cs" />
+    <Compile Include="gtk-gui\Bingo.Window.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

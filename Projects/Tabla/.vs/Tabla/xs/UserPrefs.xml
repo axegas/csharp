@@ -2,10 +2,10 @@
   <MonoDevelop.Ide.ItemProperties.Tabla PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Tabla/MainWindow.cs">
     <Files>
-      <File FileName="Tabla/Program.cs" Line="13" Column="31" />
-      <File FileName="Tabla/Panel.cs" Line="28" Column="29" />
-      <File FileName="Tabla/Bombo.cs" Line="24" Column="10" />
-      <File FileName="Tabla/MainWindow.cs" Line="47" Column="9" />
+      <File FileName="Tabla/Bombo.cs" Line="1" Column="1" />
+      <File FileName="Tabla/Bolet.cs" Line="9" Column="9" />
+      <File FileName="Tabla/MainWindow.cs" Line="22" Column="45" />
+      <File FileName="Tabla/Panel.cs" Line="62" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
